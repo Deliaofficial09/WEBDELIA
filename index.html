@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title> Delia </title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>DRZ</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            
+                        </ul>
+                    </nav>
+
+                    
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                       
+                        <a href="https://www.instagram.com/anittaofficial09/"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Delia Rodriguez</span>, Desarrolladora WEB</h2>
+                <p class="descripcion">Esta es mi pagina WEB, ven conoces mi habilidades  </p>
+                <a href="c:\Users\HP\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\C51CE410C124A10E0DB5E4B97FC2AF39\Imagen de WhatsApp 2024-02-21 a las 16.57.14_dc3c7091.jpg">Ir a contacto</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/deliafondo.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Delia Rodriguez</span> </h2>
+            <h3>Desarrolladora WEB</h3>
+            <p>Mejor conocidad como anitta , me gusta bailar. Tengo 18 año de edad ,soy estudiante de la carrera de SOFTWARE, me apasiona lo que hago, y siempre dando lo mejor de mi para ustedes.</p>
+            <p>Espero que te guste mi pagina la hice con mucho amor para ustedes .</p>
+            
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Pagina WEB</h4>
+                <li> HTML </li>
+                <li>CSS</li>
+               
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Programación PHP</h4>
+                <li>PHP</li>
+                <li>Base de datos </li>
+             
+               
+               
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                <h4>Validación con Javascript</h4>
+                <li>Javascript</li>
+                
+             
+        
+           
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Captura de pantalla (34).png" alt="">
+                <div class="info">
+                    <h4>Delia</h4>
+                    <p>Programadora</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Captura de pantalla (35).png" alt="">
+                <div class="info">
+                    <h4>Delia</h4>
+                    <p>Programadora</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Captura de pantalla (38).png" alt="">
+                <div class="info">
+                    <h4>Delia</h4>
+                    <p>Programadora</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Captura de pantalla (39).png" alt="">
+                <div class="info">
+                    <h4>Delia</h4>
+                    <p>Programadora</p>
+                </div>
+           
+        </div>
+    </section>
+
+   
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Delia Rodriguez Zarzuela</p>
+        <div class="redes">
+           
+            <a href="https://www.instagram.com/anittaofficial09/"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+        
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
